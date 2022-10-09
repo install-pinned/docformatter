@@ -14,7 +14,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
 - name: Install docformatter from PyPI
-  uses: install-pinned/docformatter@cd207c0800c89c15970d226289c438b78519285f  # 1.5.0
+  uses: install-pinned/docformatter@ffffffffffffffffffffffffffffffffffffffff
 ```
 
 ## Alternatives
@@ -23,5 +23,4 @@ This action is a relatively simple wrapper around the fantastic [pip-tools](http
 
 ## More Details
 
-See the [main repository](https://github.com/install-pinned/overview) for details.
-
+See the [@install-pinned README](https://github.com/install-pinned) for details.
