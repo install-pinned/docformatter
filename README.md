@@ -14,7 +14,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
 - name: Install docformatter from PyPI
-  uses: install-pinned/docformatter@961cba0d6dd521d198621b8ec065cbbef5a30489  # 1.5.0
+  uses: install-pinned/docformatter@ffffffffffffffffffffffffffffffffffffffff
 ```
 
 ## Alternatives
