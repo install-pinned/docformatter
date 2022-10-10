@@ -4,7 +4,7 @@
 
 ![](https://shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)
 
-Securely install the latest docformatter release from PyPI.
+Securely install the latest [docformatter](https://pypi.org/project/docformatter/) release from PyPI.
 
 This action installs a pinned version of **docformatter** and all its dependencies,         making sure that file hashes match. Pinning your dependencies stops supply chain attacks where an adversary         replaces docformatter or one of its dependencies with malicious code.
 
