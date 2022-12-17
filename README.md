@@ -19,7 +19,7 @@ In your GitHub Actions workflow, use this action like so:
 
 ```yaml
       - name: Install docformatter from PyPI
-        uses: install-pinned/docformatter@370608e97fc8c77205e3ec6dff01b9835e3c520a  # 1.5.0
+        uses: install-pinned/docformatter@9d3d825a3b826dd0765093609165293a6eace2a8  # 1.5.1
 ```
 
 You can [set up Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/keeping-your-actions-up-to-date-with-dependabot#example-dependabotyml-file-for-github-actions)
