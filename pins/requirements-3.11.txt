@@ -4,9 +4,13 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=pins/requirements-3.11.txt pins/requirements.in
 #
-docformatter==1.5.0 \
-    --hash=sha256:9dc71659d3b853c3018cd7b2ec34d5d054370128e12b79ee655498cb339cc711 \
-    --hash=sha256:ae56c64822c3184602ac83ec37650c9785e80dfec17b4eba4f49ad68815d71c0
+charset-normalizer==2.1.1 \
+    --hash=sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845 \
+    --hash=sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f
+    # via docformatter
+docformatter==1.5.1 \
+    --hash=sha256:05d6e4c528278b3a54000e08695822617a38963a380f5aef19e12dd0e630f19a \
+    --hash=sha256:3fa3cdb90cdbcdee82747c58410e47fc7e2e8c352b82bed80767915eb03f2e43
     # via -r pins/requirements.in
 tomli==2.0.1 \
     --hash=sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc \
